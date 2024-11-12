@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>command-not-found</id>
+    <title>Command Not Found</title>
+    <summary>Command </summary>
+    <version>1.0.0</version>
+    <authors>CrypticVerse</authors>
+    <projectSourceUrl>https://github.com/CrypticVerse/command-not-found</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/CrypticVerse/command-not-found/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/CrypticVerse/command-not-found</packageSourceUrl>
+    <projectUrl>https://github.com/CrypticVerse/command-not-found</projectUrl>
+    <owners>CrypticVerse</owners>
+    <tags>powershell, script, profile</tags>
+    <releaseNotes>https://github.com/CrypticVerse/command-not-found/releases</releaseNotes>
+
+        <description>### Command Not Found
+
+This is a tool that simulates the command-not-found on ubuntu!
+
+#### Installation
+1. Run `choco install command-not-found` as an Administrator
+2. In **POWERSHELL AS YOUR USER!** run `command-not-found.cmd >> $PROFILE`. This only works in powershell (CMD.exe coming soon!)
+3. Run `. $PROFILE` and done!
+
+#### Usage
+Command not found is enabled automatically!
+Every time a command fails, command-not-found checks to see if it's available on chocolatey!
+Then, it will recommend the package to install based on the failed command!</description>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="readme.md" target="readme.md" />
+  </files>
+</package>

@@ -11,7 +11,7 @@
     <packageSourceUrl>https://github.com/CrypticVerse/command-not-found</packageSourceUrl>
     <projectUrl>https://github.com/CrypticVerse/command-not-found</projectUrl>
     <owners>CrypticVerse</owners>
-    <tags>powershell, script, profile</tags>
+    <tags>powershell</tags>
     <releaseNotes>https://github.com/CrypticVerse/command-not-found/releases</releaseNotes>
 
         <description>### Command Not Found
